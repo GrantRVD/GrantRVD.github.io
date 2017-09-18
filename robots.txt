@@ -1,0 +1,4 @@
+Sitemap: https://GrantRVD.github.io/sitemapindex.xml
+
+User-Agent: *
+Host: GrantRVD.github.io
