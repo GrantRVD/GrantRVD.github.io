@@ -7,11 +7,11 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://GrantRVD.github.io/</loc>
-  <lastmod>2017-09-15T04:29:00Z</lastmod>
+  <lastmod>2017-09-18T19:37:00Z</lastmod>
  </url>
  <url>
   <loc>https://GrantRVD.github.io/archive.html</loc>
-  <lastmod>2017-09-18T01:25:00Z</lastmod>
+  <lastmod>2017-11-05T00:28:00Z</lastmod>
  </url>
  <url>
   <loc>https://GrantRVD.github.io/categories/</loc>
@@ -23,11 +23,11 @@
  </url>
  <url>
   <loc>https://GrantRVD.github.io/ja/</loc>
-  <lastmod>2017-09-15T04:29:00Z</lastmod>
+  <lastmod>2017-09-18T19:37:00Z</lastmod>
  </url>
  <url>
   <loc>https://GrantRVD.github.io/ja/archive.html</loc>
-  <lastmod>2017-09-18T01:25:00Z</lastmod>
+  <lastmod>2017-11-05T00:28:00Z</lastmod>
  </url>
  <url>
   <loc>https://GrantRVD.github.io/ja/categories/</loc>
@@ -38,7 +38,15 @@
   <lastmod>2017-09-15T04:29:00Z</lastmod>
  </url>
  <url>
+  <loc>https://GrantRVD.github.io/ja/pages/about-me/</loc>
+  <lastmod>2017-09-18T19:37:00Z</lastmod>
+ </url>
+ <url>
   <loc>https://GrantRVD.github.io/listings/</loc>
   <lastmod>2017-09-15T04:29:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://GrantRVD.github.io/pages/about-me/</loc>
+  <lastmod>2017-09-18T19:37:00Z</lastmod>
  </url>
 </urlset>
