@@ -28,17 +28,31 @@ ${header.html_navigation_links()}
         <div class="vertical">
             <div class="main-header-content inner">
                 % if GITHUB_URL:
-                <a  href="${GITHUB_URL}" target="_blank">
+                <a  href="${GITHUB_URL}" title="My GitHub activity" target="_blank">
                     <span class="icon-github" style="color:white;font-size:2em"></span>
                 </a>
                 &nbsp;
                 % endif
                 % if TWITTER_URL:
-                <a class="bloglogo" href=${TWITTER_URL} target="_blank">
+                <a class="bloglogo" href=${TWITTER_URL} title="My twitter"target="_blank">
                     <span class="icon-twitter" style="color:white;font-size:2em"></span>
                 </a>
                 &nbsp;
                 % endif
+                % if LINKEDIN_URL:
+                <a href="${LINKEDIN_URL}" title="My LinkedIn Page" target="_blank">
+                    <span class="icon-linkedin" style="color:white;font-size:2em"></span>
+                </a>
+                &nbsp;
+                % endif
+                % if RSS_FEED:
+                <a href="/rss.xml" title="An RSS feed for my blog" target="_blank">
+                    <span class="icon-feed" style="color:white;font-size:2em"></span>
+                </a>
+                % endif
+                <a href="" target="_blank">
+                    <span class="icon-impactstory" style="color:white;font-size:2em"></span>
+                </a>
                 <h1 class="page-title">${title}</h1>
                 <h2 class="page-description">${description}</h2>
             </div>

@@ -26,7 +26,9 @@ SITE_URL = "https://GrantRVD.github.io/"
 # If not set, defaults to SITE_URL
 # BASE_URL = "https://GrantRVD.github.io/"
 BLOG_EMAIL = "GrantRVD@gmail.com"
-BLOG_DESCRIPTION = '"Not sorry for a single gotdamned thing."'  # (translatable)
+BLOG_DESCRIPTION = """
+Electrophysiology | Neuroscience | Machine Learning
+"""  # (translatable)
 
 # Nikola is multilingual!
 #
@@ -133,9 +135,10 @@ TRANSLATIONS_PATTERN = "{path}.{lang}.{ext}"
 
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
-        ("/archive.html", "Archive"),
-        ("/categories/", "Tags"),
-        ("/rss.xml", "RSS feed"),
+        ("/cv.html", "cv"),
+        ("/faq.html", "faq"),
+        ("/archive.html", "blog"),
+        ("/about.html", "about"),
     ),
 
     "ja": (
@@ -1369,7 +1372,9 @@ HYPHENATE = False
 GLOBAL_CONTEXT = {
     'TWITTER_URL': 'https://twitter.com/usethespacebar',
     'GITHUB_URL': 'https://github.com/GrantRVD',
+    'LINKEDIN_URL': 'https://linkedin.com/in/GrantRVD',
     'BANNER_URL': 'assets/img/PANO_20160505_180312.jpg',
+    'RSS_FEED': True,
 }
 # Add functions here and they will be called with template
 # GLOBAL_CONTEXT as parameter when the template is about to be
